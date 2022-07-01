@@ -1,133 +1,383 @@
 fileFormatVersion: 2
 guid: 32a809c5e1ca5bd4c83a6141fc9c6f4b
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Ankle1_L
-    100002: Ankle1_R
-    100004: Chest_M
-    100006: DeformationSystem
-    100008: Group
-    100010: Head_M
-    100012: HeadEnd_M
-    100014: Hip1_L
-    100016: Hip1_R
-    100018: Jaw_M
-    100020: JawEnd_M
-    100022: joint51_L
-    100024: joint51_R
-    100026: joint52_L
-    100028: joint52_R
-    100030: joint53_2_L
-    100032: joint53_2_R
-    100034: joint53_L
-    100036: joint53_R
-    100038: joint54_L
-    100040: joint54_R
-    100042: joint73_L
-    100044: joint73_R
-    100046: joint74_L
-    100048: joint74_R
-    100050: joint77_L
-    100052: joint77_R
-    100054: joint78_L
-    100056: joint78_R
-    100058: joint79_L
-    100060: joint79_R
-    100062: joint80_L
-    100064: joint80_R
-    100066: joint81_L
-    100068: joint81_R
-    100070: joint82_L
-    100072: joint82_R
-    100074: joint83_M
-    100076: joint84_M
-    100078: joint85_M
-    100080: joint86_M
-    100082: joint9_M
-    100084: Knee1_L
-    100086: Knee1_R
-    100088: Main
-    100090: Neck_M
-    100092: Pteranodon
-    100094: //RootNode
-    100096: Root_M
-    100098: Rump_L
-    100100: Rump_R
-    100102: Spine1_M
-    100104: Tail1_M
-    100106: Toes1_L
-    100108: Toes1_R
-    100110: ToesEnd1_L
-    100112: ToesEnd1_R
-    100114: Wing_Spine_1_L
-    100116: Wing_Spine_1_R
-    100118: Wing_Spine_L
-    100120: Wing_Spine_R
-    400000: Ankle1_L
-    400002: Ankle1_R
-    400004: Chest_M
-    400006: DeformationSystem
-    400008: Group
-    400010: Head_M
-    400012: HeadEnd_M
-    400014: Hip1_L
-    400016: Hip1_R
-    400018: Jaw_M
-    400020: JawEnd_M
-    400022: joint51_L
-    400024: joint51_R
-    400026: joint52_L
-    400028: joint52_R
-    400030: joint53_2_L
-    400032: joint53_2_R
-    400034: joint53_L
-    400036: joint53_R
-    400038: joint54_L
-    400040: joint54_R
-    400042: joint73_L
-    400044: joint73_R
-    400046: joint74_L
-    400048: joint74_R
-    400050: joint77_L
-    400052: joint77_R
-    400054: joint78_L
-    400056: joint78_R
-    400058: joint79_L
-    400060: joint79_R
-    400062: joint80_L
-    400064: joint80_R
-    400066: joint81_L
-    400068: joint81_R
-    400070: joint82_L
-    400072: joint82_R
-    400074: joint83_M
-    400076: joint84_M
-    400078: joint85_M
-    400080: joint86_M
-    400082: joint9_M
-    400084: Knee1_L
-    400086: Knee1_R
-    400088: Main
-    400090: Neck_M
-    400092: //RootNode
-    400094: Pteranodon
-    400096: Root_M
-    400098: Rump_L
-    400100: Rump_R
-    400102: Spine1_M
-    400104: Tail1_M
-    400106: Toes1_L
-    400108: Toes1_R
-    400110: ToesEnd1_L
-    400112: ToesEnd1_R
-    400114: Wing_Spine_1_L
-    400116: Wing_Spine_1_R
-    400118: Wing_Spine_L
-    400120: Wing_Spine_R
-    4300000: Pteranodon
-    9500000: //RootNode
-    13700000: Pteranodon
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Ankle1_L
+  - first:
+      1: 100002
+    second: Ankle1_R
+  - first:
+      1: 100004
+    second: Chest_M
+  - first:
+      1: 100006
+    second: DeformationSystem
+  - first:
+      1: 100008
+    second: Group
+  - first:
+      1: 100010
+    second: Head_M
+  - first:
+      1: 100012
+    second: HeadEnd_M
+  - first:
+      1: 100014
+    second: Hip1_L
+  - first:
+      1: 100016
+    second: Hip1_R
+  - first:
+      1: 100018
+    second: Jaw_M
+  - first:
+      1: 100020
+    second: JawEnd_M
+  - first:
+      1: 100022
+    second: joint51_L
+  - first:
+      1: 100024
+    second: joint51_R
+  - first:
+      1: 100026
+    second: joint52_L
+  - first:
+      1: 100028
+    second: joint52_R
+  - first:
+      1: 100030
+    second: joint53_2_L
+  - first:
+      1: 100032
+    second: joint53_2_R
+  - first:
+      1: 100034
+    second: joint53_L
+  - first:
+      1: 100036
+    second: joint53_R
+  - first:
+      1: 100038
+    second: joint54_L
+  - first:
+      1: 100040
+    second: joint54_R
+  - first:
+      1: 100042
+    second: joint73_L
+  - first:
+      1: 100044
+    second: joint73_R
+  - first:
+      1: 100046
+    second: joint74_L
+  - first:
+      1: 100048
+    second: joint74_R
+  - first:
+      1: 100050
+    second: joint77_L
+  - first:
+      1: 100052
+    second: joint77_R
+  - first:
+      1: 100054
+    second: joint78_L
+  - first:
+      1: 100056
+    second: joint78_R
+  - first:
+      1: 100058
+    second: joint79_L
+  - first:
+      1: 100060
+    second: joint79_R
+  - first:
+      1: 100062
+    second: joint80_L
+  - first:
+      1: 100064
+    second: joint80_R
+  - first:
+      1: 100066
+    second: joint81_L
+  - first:
+      1: 100068
+    second: joint81_R
+  - first:
+      1: 100070
+    second: joint82_L
+  - first:
+      1: 100072
+    second: joint82_R
+  - first:
+      1: 100074
+    second: joint83_M
+  - first:
+      1: 100076
+    second: joint84_M
+  - first:
+      1: 100078
+    second: joint85_M
+  - first:
+      1: 100080
+    second: joint86_M
+  - first:
+      1: 100082
+    second: joint9_M
+  - first:
+      1: 100084
+    second: Knee1_L
+  - first:
+      1: 100086
+    second: Knee1_R
+  - first:
+      1: 100088
+    second: Main
+  - first:
+      1: 100090
+    second: Neck_M
+  - first:
+      1: 100092
+    second: Pteranodon
+  - first:
+      1: 100094
+    second: //RootNode
+  - first:
+      1: 100096
+    second: Root_M
+  - first:
+      1: 100098
+    second: Rump_L
+  - first:
+      1: 100100
+    second: Rump_R
+  - first:
+      1: 100102
+    second: Spine1_M
+  - first:
+      1: 100104
+    second: Tail1_M
+  - first:
+      1: 100106
+    second: Toes1_L
+  - first:
+      1: 100108
+    second: Toes1_R
+  - first:
+      1: 100110
+    second: ToesEnd1_L
+  - first:
+      1: 100112
+    second: ToesEnd1_R
+  - first:
+      1: 100114
+    second: Wing_Spine_1_L
+  - first:
+      1: 100116
+    second: Wing_Spine_1_R
+  - first:
+      1: 100118
+    second: Wing_Spine_L
+  - first:
+      1: 100120
+    second: Wing_Spine_R
+  - first:
+      4: 400000
+    second: Ankle1_L
+  - first:
+      4: 400002
+    second: Ankle1_R
+  - first:
+      4: 400004
+    second: Chest_M
+  - first:
+      4: 400006
+    second: DeformationSystem
+  - first:
+      4: 400008
+    second: Group
+  - first:
+      4: 400010
+    second: Head_M
+  - first:
+      4: 400012
+    second: HeadEnd_M
+  - first:
+      4: 400014
+    second: Hip1_L
+  - first:
+      4: 400016
+    second: Hip1_R
+  - first:
+      4: 400018
+    second: Jaw_M
+  - first:
+      4: 400020
+    second: JawEnd_M
+  - first:
+      4: 400022
+    second: joint51_L
+  - first:
+      4: 400024
+    second: joint51_R
+  - first:
+      4: 400026
+    second: joint52_L
+  - first:
+      4: 400028
+    second: joint52_R
+  - first:
+      4: 400030
+    second: joint53_2_L
+  - first:
+      4: 400032
+    second: joint53_2_R
+  - first:
+      4: 400034
+    second: joint53_L
+  - first:
+      4: 400036
+    second: joint53_R
+  - first:
+      4: 400038
+    second: joint54_L
+  - first:
+      4: 400040
+    second: joint54_R
+  - first:
+      4: 400042
+    second: joint73_L
+  - first:
+      4: 400044
+    second: joint73_R
+  - first:
+      4: 400046
+    second: joint74_L
+  - first:
+      4: 400048
+    second: joint74_R
+  - first:
+      4: 400050
+    second: joint77_L
+  - first:
+      4: 400052
+    second: joint77_R
+  - first:
+      4: 400054
+    second: joint78_L
+  - first:
+      4: 400056
+    second: joint78_R
+  - first:
+      4: 400058
+    second: joint79_L
+  - first:
+      4: 400060
+    second: joint79_R
+  - first:
+      4: 400062
+    second: joint80_L
+  - first:
+      4: 400064
+    second: joint80_R
+  - first:
+      4: 400066
+    second: joint81_L
+  - first:
+      4: 400068
+    second: joint81_R
+  - first:
+      4: 400070
+    second: joint82_L
+  - first:
+      4: 400072
+    second: joint82_R
+  - first:
+      4: 400074
+    second: joint83_M
+  - first:
+      4: 400076
+    second: joint84_M
+  - first:
+      4: 400078
+    second: joint85_M
+  - first:
+      4: 400080
+    second: joint86_M
+  - first:
+      4: 400082
+    second: joint9_M
+  - first:
+      4: 400084
+    second: Knee1_L
+  - first:
+      4: 400086
+    second: Knee1_R
+  - first:
+      4: 400088
+    second: Main
+  - first:
+      4: 400090
+    second: Neck_M
+  - first:
+      4: 400092
+    second: //RootNode
+  - first:
+      4: 400094
+    second: Pteranodon
+  - first:
+      4: 400096
+    second: Root_M
+  - first:
+      4: 400098
+    second: Rump_L
+  - first:
+      4: 400100
+    second: Rump_R
+  - first:
+      4: 400102
+    second: Spine1_M
+  - first:
+      4: 400104
+    second: Tail1_M
+  - first:
+      4: 400106
+    second: Toes1_L
+  - first:
+      4: 400108
+    second: Toes1_R
+  - first:
+      4: 400110
+    second: ToesEnd1_L
+  - first:
+      4: 400112
+    second: ToesEnd1_R
+  - first:
+      4: 400114
+    second: Wing_Spine_1_L
+  - first:
+      4: 400116
+    second: Wing_Spine_1_R
+  - first:
+      4: 400118
+    second: Wing_Spine_L
+  - first:
+      4: 400120
+    second: Wing_Spine_R
+  - first:
+      43: 4300000
+    second: Pteranodon
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Pteranodon
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -135,9 +385,9 @@ ModelImporter:
       name: BROWN
     second: {fileID: 2100000, guid: 79631f7e3119c24479efab770c8ca0ba, type: 2}
   materials:
-    importMaterials: 0
-    materialName: 0
-    materialSearch: 1
+    materialImportMode: 1
+    materialName: 2
+    materialSearch: 0
     materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
@@ -168,25 +418,32 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -195,10 +452,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -208,13 +465,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
